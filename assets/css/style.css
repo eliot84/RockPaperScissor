@@ -1,0 +1,56 @@
+
+body{
+	background-color: yellow;
+}
+.container{
+	display: grid;
+}
+
+.gameBoard{
+	display: grid;
+	grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+	justify-items: center;
+	width: auto;
+	height: 300px;
+
+}
+
+.results{
+	display: grid;
+	width: 300px;
+	background-color: gray;
+	margin-bottom: 5px;
+}
+
+.player1{
+	display: grid;
+	width: 300px;
+	background-color: orange;
+	margin-bottom: 5px;
+
+}
+
+.player2{
+	display: grid;
+	width: 300px;
+	background-color: blue;
+	margin-top: 5px;
+}
+
+.paper{
+	width: 100px;
+	height: 90px;
+	background-color: purple;
+}
+
+.rock{
+	width: 100px;
+	height: 90px;
+	background-color: purple;
+}
+
+.scissor{
+	width: 100px;
+	height: 90px;
+	background-color: purple;
+}
