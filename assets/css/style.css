@@ -35,32 +35,12 @@
 	margin-top: 5px;
 }
 
-.paper{
+.choice{
 	width: 100px;
 	height: 90px;
 	background-color: purple;
     font-size: 60px;
 	color: white;
 	text-align: center;
-	line-height: 50px;
-}
-
-.rock{
-	width: 100px;
-	height: 90px;
-	background-color: purple;
-	font-size: 60px;
-	color: white;
-	text-align: center;
-	line-height: 50px;
-}
-
-.scissor{
-	width: 100px;
-	height: 90px;
-	background-color: purple;
-	font-size: 60px;
-	color: white;
-	text-align: center;
-	line-height: 50px;
+	line-height: 95px;
 }
