@@ -1,0 +1,1 @@
+console.log("rps.js is online");
