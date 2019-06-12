@@ -14,6 +14,18 @@ console.log("fb is live");
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-   var database = firebase.database();
+  //Add database
+  var database = firebase.database();
 
-   console.log(database);
+   var ref = database.ref('games/game1');
+
+
+   var data = {
+     name: "Johnny",
+     score: 0,
+     result: null
+   }
+
+   ref.push(data);
+
+   console.log(ref);
